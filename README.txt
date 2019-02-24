@@ -31,5 +31,3 @@ $container['db'] = function($c){
     $pdo = new PDO("mysql:host={$x['hostname']};dbname={$x['dbname']}", "{$x['username']}", "{$x['password']}");
 return $pdo;
 };
-
--->
